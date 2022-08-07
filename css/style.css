@@ -1,0 +1,29 @@
+body {
+    background: #333;
+    color: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 2em auto;
+
+}
+
+tr td {
+    background: #bbb;
+    padding: 0.5em;
+}
+
+tr:nth-child(even) td {
+    background: #999;
+}
+
+tr.nextyear td {
+    opacity: .3;
+}
+
+tr.strong td {
+    font-weight: bold;
+}
