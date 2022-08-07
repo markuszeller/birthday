@@ -1,5 +1,5 @@
 <?php
-function pluralize($singular, $plural, $count)
+function pluralize(string $singular, string $plural, int $count): string
 {
     return $count != 1 ? $plural : $singular;
 }
