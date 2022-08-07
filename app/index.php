@@ -1,6 +1,6 @@
 <?php
-$events = require_once './events.php';
-require_once './functions.php';
+$events = require_once './src/events.php';
+require_once './src/functions.php';
 
 $currentYear = date("Y");
 $today       = new DateTime();
